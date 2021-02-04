@@ -1,0 +1,53 @@
+Functional Tests
+
+1. No LEDs are lit.
+
+2. Button 0 only lights LED0.
+	a. Release of Button 0 returns LED0 to unlit.
+
+3. Button 1 only lights LED1.
+	a. Release of Button 1 returns LED1 to unlit. 
+
+4. Both buttons together is a NULL state, no buttons are lit. 
+	a. Releasing Button 0, only Button 1 is pressed. LED1 is lit.
+	b. Releasing Button 1, both buttons are unpressed. No LEDs are lit.
+	c. Pressing both buttons, no LEDs are lit. Releasing button 1, only button 0 is pressed.
+		LED0 is lit.
+	d. Releasing button 0, no LEDs are lit.
+
+5. Place your finger on the touch slider and slide your finger to the left.
+	a.  Observe that LED0 is lit.
+		LED0 is lit.
+
+6. Place your finger on the rouch slider and slide your finger to the right.
+	a. Observe that (only) LED1 is lit.
+		LED1 is lit. 
+
+7.   With your finger on the left side of the touch slider
+	a. Observe that LED0 is lit
+		LED0 is lit. 
+	b. Press Btn0 and observe that only LED0 remains lit
+		Only LED0 is lit.
+	c. Press both Btn0 and Btn1 and observe that only LED0 remains lit
+		Only LED0 is lit.
+	d. Press Btn1 and observe that both LED0 and LED1 are lit
+		Both LED0 and LED1 are lit.
+	e. Release Btn1 and observe that only LED0 is lit
+		Only LED0 is lit.
+	f. Place a second finger on the right side of the touch slider and observe that no LED is lit
+		No LED is lit.
+
+8.   With your finger on the right side of the touch slider
+	a. Observe that LED1 is lit
+		LED1 is lit. 
+	b. Press Btn1 and observe that only LED1 remains lit
+		Only LED1 is lit.
+	c. Press both Btn0 and Btn1 and observe that only LED1 remains lit
+		Only LED1 is lit.
+	d. Press Btn0 and observe that both LED0 and LED1 are lit
+		Both LED0 and LED1 are lit.
+	e. Release Btn0 and observe that only LED1 is lit
+		Only LED1 is lit.
+	f. Place a second finger on the left side of the touch slider and observe that no LED is lit
+		No LED is lit.
+

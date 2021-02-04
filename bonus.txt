@@ -1,0 +1,21 @@
+Bonus Points:
+
+a. For 1 ms ticks, the baseline power consumption is 33 mW.
+	For 10 ms ticks, the baseline power consumption is 32 mW.
+	For 100 ms ticks, the baseline power consumption is 32 mW.
+	For 200 ms ticks, the baseline power consumption is 31 mW. 
+	In my implementation, there does not seem to be a great difference in power consumption if the systick 
+	period is changed. A shorter timer interrupt gives the system more granularity and precision in timing
+	when tasks are short.
+
+b. The capsense circuit has up to 64 port pins (linked to capacitors) which convert 
+	capacitive signal to digital outputs. The port pins can be linked together to 
+	measure combined capacitance of the many capacitors used to measure finger contact. The 64
+	port pins are arranged on top of 4 buttons, each of which registers when one or a set of 
+	port pins on it is activated. The capacitive port pins measure fine detail and the buttons
+	can be accessed to find which regions of the capacitive sensor are pressed on a larger scale. 
+
+c. 
+Flash used: 13440 / 256000 (5%) 
+RAM used: 208 / 32000 (0%)  
+

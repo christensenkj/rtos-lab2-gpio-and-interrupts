@@ -1,0 +1,42 @@
+Measurements
+
+IRQ
+a.   Measure the baseline power consumption in mW when no buttons are pressed and no finger is placed on the touch slider.
+3.33 mW
+
+b.   Control the LEDs with each pushbutton and record the power consumption in mW when each LED is lit.
+LED0: 5.18 mW
+LED1: 5.18 mW
+
+c.    Control the LEDs with the touch slider and record the power consumption in mW when each LED is lit.
+LED0: 4.89 mW
+LED1: 4.90 mW
+
+d.   Light both LEDs using a combination of pushbuttons and the touch slider and record the power consumption in mW.
+Both LEDs using PB0 and slider RIGHT: 6.73 mW
+Both LEDs using PB1 and slider LEFT: 6.73 mW
+
+e.   Use the compile-time switch to build, run, and compare the power consumption for the polling method in Part I versus the interrupt-driven method in Part II.
+
+
+Polling
+a.   Measure the baseline power consumption in mW when no buttons are pressed and no finger is placed on the touch slider.
+6.68 mW
+
+b.   Control the LEDs with each pushbutton and record the power consumption in mW when each LED is lit.
+LED0: 8.55 mW
+LED1: 8.56 mW
+
+c.    Control the LEDs with the touch slider and record the power consumption in mW when each LED is lit.
+LED0: 8.27 mW
+LED1: 8.28 mW
+
+d.   Light both LEDs using a combination of pushbuttons and the touch slider and record the power consumption in mW.
+Both LEDs using PB0 and slider RIGHT: 10.11 mW
+Both LEDs using PB1 and slider LEFT: 10.09 mW
+
+Reduced Systick Frequency
+f.For the interrupt-driven method, reduce the frequency of the SysTick timer and compare the baseline power consumption.
+10 ms tick: 3.32 mW
+100 ms tick: 3.32 mW
+200 ms tick: 3.31 mW
